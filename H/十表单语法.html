@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单语法</title></title>
+</head>
+<body>
+    <!--  注册  登录  等等-->
+
+
+    <!-- action：表示向何处发送表单请求，即后端 url -->
+    <!-- method：get   post -->
+    <form action="一基本标签.html" method="get">
+        <p>名字：<input type="text" name = "userName"></p>
+        <p>密码：<input type="password" name = "pwd"></p>
+
+
+
+    <!-- 单选框 -->
+    <p>
+        性别：
+        <input type="radio" value = "man" name = "sex" > 男
+        <input type="radio" value = "woman" name = "sex" > 女
+    </p>
+
+
+    <!-- 多选框 -->
+    <p>
+        爱好：
+        <input type="checkbox" value = "sleep" name = "hobby" > 睡觉
+        <input type="checkbox" value = "game" name = "hobby" > 干农活儿
+        <input type="checkbox" value = "basketball" name = "hobby" > 篮球
+        <input type="checkbox" value = "coding" name = "hobby" > 敲代码
+        <input type="checkbox" value = "chat" name = "hobby" > 聊天
+    </p>
+
+
+    <!-- 按钮 -->
+    <p>
+        <input type="button" name = bt value="点击变长">
+        <br>
+        <br>
+        <input type="image" src="./resoures/img/黑武士.jpg" weigt = 300px height="300px">
+    </p>
+
+
+
+
+
+
+
+
+
+    <!-- 提交  重置 -->
+    <p>
+        <input type="submit" value="点击提交">
+        <input type="reset" value="清空内容">
+    </p>
+
+
+    </form>
+
+
+   
+
+
+</body>
+</html>
